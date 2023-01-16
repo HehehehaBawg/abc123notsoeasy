@@ -104,6 +104,54 @@ h1 {
     background-image: url("images/parlsona.png");
 }
 
+.potbelly {
+    background-image: url("images/potbelly.png");
+}
+
+.maw {
+    background-image: url("images/maw.png");
+}
+
+.stoowarb {
+    background-image: url("images/stoowarb.png");
+}
+
+.stogg {
+    background-image: url("images/stogg.png");
+}
+
+.bowhead {
+    background-image: url("images/bowhead.png");
+}
+
+.Wubbox {
+    background-image: url("images/Wubbox.png");
+}
+
+.Rare-Wubbox {
+    background-image: url("images/Rare-Wubbox.png");
+}
+
+.hoola {
+    background-image: url("images/hoola.png");
+}
+
+.pompom {
+    background-image: url("images/pompom.png");
+}
+
+.scups {
+    background-image: url("images/scups.png");
+}
+
+.quarrister {
+    background-image: url("images/quarrister.png");
+}
+
+.epic-wubbox-earth  {
+    background-image: url("images/epic-wubbox-earth.png");
+}
+
 .col-lg-2.col-md-4 {
     padding: 15px;
 }

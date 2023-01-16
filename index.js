@@ -34,6 +34,9 @@ var audioShrubb = new Audio("sounds/shrubb.mp3");
 var audioTawkerr = new Audio("sounds/tawkerr.mp3");
 var audioTweedle = new Audio("sounds/tweedle.mp3");
 var openingMusic = new Audio("sounds/opening-music.mp3");
+
+
+
 openingMusic.play();
 
 
