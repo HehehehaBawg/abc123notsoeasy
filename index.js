@@ -33,13 +33,22 @@ const audioRareJammer = new Audio("sounds/rare-jammer.mp3");
 const audioShrubb = new Audio("sounds/shrubb.mp3");
 const audioTawkerr = new Audio("sounds/tawkerr.mp3");
 const audioTweedle = new Audio("sounds/tweedle.mp3");
-const audioPotbelly = new Audio("sounds/")
 
+
+const audioPotbelly = new Audio("sounds/potbelly.mp3")
+const audioMaw = new Audio("sounds/maw.mp3")
+const audioStoowarb = new Audio("sounds/stoowarb.mp3")
+const audioStogg = new Audio("sounds/stogg.mp3")
+const audioBowhead= new Audio("sounds/bowhead.mp3")
+const audioWubbox = new Audio("sounds/Wubbox.mp3")
+const audioRareWubbox = new Audio("sounds/Rare-Wubbox.mp3")
+const audioHoola = new Audio("sounds/hoola.mp3")
+const audioPompom = new Audio("sounds/pompom.mp3")
+const audioScups = new Audio("sounds/scups.mp3")
+const audioQuarrister = new Audio("sounds/quarrister.mp3")
+const audioEpicWubbox = new Audio("sounds/epic-wubbox.mp3")
 
 const openingMusic = new Audio("sounds/opening-music.mp3");
-
-
-
 
 openingMusic.play();
 
