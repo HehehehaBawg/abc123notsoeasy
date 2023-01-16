@@ -14,26 +14,30 @@ $("body").keydown(function (event) {
 function displayName() {
     $("#name-button").fadeOut();
     $("#input-name").fadeOut();
-    var name = $("#input-name").val();
+    const name = $("#input-name").val();
     $(".name").text("Welcome " + name + " click a monster to make sounds.");
     $("#monsters").fadeIn();
     $("#mystery-monsters").fadeOut(0);
     openingMusic.pause();
 }
 
-var audioMammott = new Audio("sounds/mammott.mp3");
-var audioKayna = new Audio("sounds/kayna.mp3");
-var audioClamble = new Audio("sounds/clamble.mp3");
-var audioDrumpler = new Audio("sounds/drumpler.mp3");
-var audioFurcorn = new Audio("sounds/furcorn.mp3");
-var audioNoggin = new Audio("sounds/noggin.mp3");
-var audioParlsona = new Audio("sounds/parlsona.mp3");
-var audioQuibble = new Audio("sounds/quibble.mp3");
-var audioRareJammer = new Audio("sounds/rare-jammer.mp3");
-var audioShrubb = new Audio("sounds/shrubb.mp3");
-var audioTawkerr = new Audio("sounds/tawkerr.mp3");
-var audioTweedle = new Audio("sounds/tweedle.mp3");
-var openingMusic = new Audio("sounds/opening-music.mp3");
+const audioMammott = new Audio("sounds/mammott.mp3");
+const audioKayna = new Audio("sounds/kayna.mp3");
+const audioClamble = new Audio("sounds/clamble.mp3");
+const audioDrumpler = new Audio("sounds/drumpler.mp3");
+const audioFurcorn = new Audio("sounds/furcorn.mp3");
+const audioNoggin = new Audio("sounds/noggin.mp3");
+const audioParlsona = new Audio("sounds/parlsona.mp3");
+const audioQuibble = new Audio("sounds/quibble.mp3");
+const audioRareJammer = new Audio("sounds/rare-jammer.mp3");
+const audioShrubb = new Audio("sounds/shrubb.mp3");
+const audioTawkerr = new Audio("sounds/tawkerr.mp3");
+const audioTweedle = new Audio("sounds/tweedle.mp3");
+const audioPotbelly = new Audio("sounds/")
+
+
+const openingMusic = new Audio("sounds/opening-music.mp3");
+
 
 
 
@@ -42,7 +46,7 @@ openingMusic.play();
 
 $(".mammott").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioMammott
             && audioMammott.currentTime > 0
             && !audioMammott.paused
@@ -63,7 +67,7 @@ $(".mammott").click(function () {
 
 $(".kayna").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioKayna
             && audioKayna.currentTime > 0
             && !audioKayna.paused
@@ -83,7 +87,7 @@ $(".kayna").click(function () {
 
 $(".clamble").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioClamble
             && audioClamble.currentTime > 0
             && !audioClamble.paused
@@ -104,7 +108,7 @@ $(".clamble").click(function () {
 
 $(".drumpler").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioDrumpler
             && audioDrumpler.currentTime > 0
             && !audioDrumpler.paused
@@ -124,7 +128,7 @@ $(".drumpler").click(function () {
 
 $(".furcorn").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioFurcorn
             && audioFurcorn.currentTime > 0
             && !audioFurcorn.paused
@@ -144,7 +148,7 @@ $(".furcorn").click(function () {
 
 $(".noggin").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioNoggin
             && audioNoggin.currentTime > 0
             && !audioNoggin.paused
@@ -164,7 +168,7 @@ $(".noggin").click(function () {
 
 $(".parlsona").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioParlsona
             && audioParlsona.currentTime > 0
             && !audioParlsona.paused
@@ -184,7 +188,7 @@ $(".parlsona").click(function () {
 
 $(".quibble").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioQuibble
             && audioQuibble.currentTime > 0
             && !audioQuibble.paused
@@ -204,7 +208,7 @@ $(".quibble").click(function () {
 
 $(".rare-jammer").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioRareJammer
             && audioRareJammer.currentTime > 0
             && !audioRareJammer.paused
@@ -224,7 +228,7 @@ $(".rare-jammer").click(function () {
 
 $(".shrubb").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioShrubb
             && audioShrubb.currentTime > 0
             && !audioShrubb.paused
@@ -244,7 +248,7 @@ $(".shrubb").click(function () {
 
 $(".tawkerr").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioTawkerr
             && audioTawkerr.currentTime > 0
             && !audioTawkerr.paused
@@ -264,7 +268,7 @@ $(".tawkerr").click(function () {
 
 $(".tweedle").click(function () {
 
-    var isPlaying = function () {
+    const isPlaying = function () {
         return audioTweedle
             && audioTweedle.currentTime > 0
             && !audioTweedle.paused
