@@ -296,6 +296,256 @@ $(".tweedle").click(function () {
 });
 
 
+$(".potbelly").click(function () {
+
+    const isPlaying = function () {
+        return audioPotbelly
+            && audioPotbelly.currentTime > 0
+            && !audioPotbelly.paused
+            && !audioPotbelly.ended
+            && audioPotbelly.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioPotbelly.pause();
+        audioPotbelly.currentTime = 0;
+        $(".potbelly").removeClass("monster-background-color");
+    } else {
+        audioPotbelly.play();
+        $(".potbelly").addClass("monster-background-color");
+    }
+});
+
+$(".maw").click(function () {
+
+    const isPlaying = function () {
+        return audioMaw
+            && audioMaw.currentTime > 0
+            && !audioMaw.paused
+            && !audioMaw.ended
+            && audioMaw.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioMaw.pause();
+        audioMaw.currentTime = 0;
+        $(".maw").removeClass("monster-background-color");
+    } else {
+        audioMaw.play();
+        $(".maw").addClass("monster-background-color");
+    }
+});
+
+$(".stoowarb").click(function () {
+
+    const isPlaying = function () {
+        return audioStoowarb
+            && audioStoowarb.currentTime > 0
+            && !audioStoowarb.paused
+            && !audioStoowarb.ended
+            && audioStoowarb.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioStoowarb.pause();
+        audioStoowarb.currentTime = 0;
+        $(".stoowarb").removeClass("monster-background-color");
+    } else {
+        audioStoowarb.play();
+        $(".stoowarb").addClass("monster-background-color");
+    }
+});
+
+
+$(".stogg").click(function () {
+
+    const isPlaying = function () {
+        return audioStogg
+            && audioStogg.currentTime > 0
+            && !audioStogg.paused
+            && !audioStogg.ended
+            && audioStogg.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioStogg.pause();
+        audioStogg.currentTime = 0;
+        $(".stogg").removeClass("monster-background-color");
+    } else {
+        audioStogg.play();
+        $(".stogg").addClass("monster-background-color");
+    }
+});
+
+
+$(".bowhead").click(function () {
+
+    const isPlaying = function () {
+        return audioBowhead
+            && audioBowhead.currentTime > 0
+            && !audioBowhead.paused
+            && !audioBowhead.ended
+            && audioBowhead.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioBowhead.pause();
+        audioBowhead.currentTime = 0;
+        $(".bowhead").removeClass("monster-background-color");
+    } else {
+        audioBowhead.play();
+        $(".bowhead").addClass("monster-background-color");
+    }
+});
+
+
+$(".Wubbox").click(function () {
+
+    const isPlaying = function () {
+        return audioWubbox
+            && audioWubbox.currentTime > 0
+            && !audioWubbox.paused
+            && !audioWubbox.ended
+            && audioWubbox.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioWubbox.pause();
+        audioWubbox.currentTime = 0;
+        $(".Wubbox").removeClass("monster-background-color");
+    } else {
+        audioWubbox.play();
+        $(".Wubbox").addClass("monster-background-color");
+    }
+});
+
+
+$(".Rare-Wubbox").click(function () {
+
+    const isPlaying = function () {
+        return audioRareWubbox
+            && audioRareWubbox.currentTime > 0
+            && !audioRareWubbox.paused
+            && !audioRareWubbox.ended
+            && audioRareWubbox.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioRareWubbox.pause();
+        audioRareWubbox.currentTime = 0;
+        $(".Rare-Wubbox").removeClass("monster-background-color");
+    } else {
+        audioRareWubbox.play();
+        $(".Rare-Wubbox").addClass("monster-background-color");
+    }
+});
+
+
+
+$(".hoola").click(function () {
+
+    const isPlaying = function () {
+        return audioHoola
+            && audioHoola.currentTime > 0
+            && !audioHoola.paused
+            && !audioHoola.ended
+            && audioHoola.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioHoola.pause();
+        audioHoola.currentTime = 0;
+        $(".hoola").removeClass("monster-background-color");
+    } else {
+        audioHoola.play();
+        $(".hoola").addClass("monster-background-color");
+    }
+});
+
+
+$(".pompom").click(function () {
+
+    const isPlaying = function () {
+        return audioPompom
+            && audioPompom.currentTime > 0
+            && !audioPompom.paused
+            && !audioPompom.ended
+            && audioPompom.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioPompom.pause();
+        audioPompom.currentTime = 0;
+        $(".pompom").removeClass("monster-background-color");
+    } else {
+        audioPompom.play();
+        $(".pompom").addClass("monster-background-color");
+    }
+});
+
+
+$(".scups").click(function () {
+
+    const isPlaying = function () {
+        return audioScups
+            && audioScups.currentTime > 0
+            && !audioScups.paused
+            && !audioScups.ended
+            && audioScups.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioScups.pause();
+        audioScups.currentTime = 0;
+        $(".scups").removeClass("monster-background-color");
+    } else {
+        audioScups.play();
+        $(".scups").addClass("monster-background-color");
+    }
+});
+
+
+$(".quarrister").click(function () {
+
+    const isPlaying = function () {
+        return audioQuarrister
+            && audioQuarrister.currentTime > 0
+            && !audioQuarrister.paused
+            && !audioQuarrister.ended
+            && audioQuarrister.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioQuarrister.pause();
+        audioQuarrister.currentTime = 0;
+        $(".quarrister").removeClass("monster-background-color");
+    } else {
+        audioQuarrister.play();
+        $(".quarrister").addClass("monster-background-color");
+    }
+});
+
+
+$(".epic-wubbox-earth").click(function () {
+
+    const isPlaying = function () {
+        return audioEpicWubbox
+            && audioEpicWubbox.currentTime > 0
+            && !audioEpicWubbox.paused
+            && !audioEpicWubbox.ended
+            && audioEpicWubbox.readyState > 2;
+    }
+
+    if (isPlaying()) {
+        audioEpicWubbox.pause();
+        audioEpicWubbox.currentTime = 0;
+        $(".epic-wubbox-earth").removeClass("monster-background-color");
+    } else {
+        audioEpicWubbox.play();
+        $(".epic-wubbox-earth").addClass("monster-background-color");
+    }
+});
+
 
 
 
